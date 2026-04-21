@@ -120,6 +120,14 @@ Utilizamos um Front Controller interno (`public/index.php`) e regras de `.htacce
 
 O layout foi desenhado visando simplicidade (Clean Design). A aplicação possui um **Navbar Header Global** constante contendo os atalhos vitais. O painel (Dashboard) emprega grid interativo (Cartões/Cards informativos). Telas de listagem utilizam **tabelas padronizadas** fáceis de ler, com botões bem sinalizados com códigos de cores funcionais (Ex: vermelho para Excluir e aviso de confirmação JS nativo).
 
+## Dashboard
+<img width="1862" height="946" alt="image" src="https://github.com/user-attachments/assets/edeff772-5462-49bb-ba09-387605d39754" />
+
+## Prontuário do Paciente
+<img width="1866" height="945" alt="image" src="https://github.com/user-attachments/assets/e599cc66-a659-4d2c-9049-d9f21f414d18" />
+
+
+
 ---
 
 ## 🧪 9. Possíveis Melhorias Futuras
