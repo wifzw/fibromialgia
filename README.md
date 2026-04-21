@@ -108,10 +108,10 @@ Utilizamos um Front Controller interno (`public/index.php`) e regras de `.htacce
 
 ## 📊 7. Funcionalidades
 
-✔️ **CRUD Completo:** Criação, leitura e deleção de Pacientes, Sintomas e Tratamentos.
-✔️ **Relacionamentos Seguros:** Ao tentar inserir um Sintoma ou Tratamento o sistema obriga a vinculação a um Paciente existente.
-✔️ **Dashboard Global:** Calcula nativamente via SQL o total de pacientes, média de dor geral e métricas de tratamentos ativos.
-✔️ **Prontuário Individual Dinâmico:** Visualização do histórico modular do paciente contendo as médias de dor e acesso rápido aos seus sintomas restritos.
+✔️ **CRUD Completo:** Criação, leitura e deleção de Pacientes, Sintomas e Tratamentos.<br >
+✔️ **Relacionamentos Seguros:** Ao tentar inserir um Sintoma ou Tratamento o sistema obriga a vinculação a um Paciente existente.<br >
+✔️ **Dashboard Global:** Calcula nativamente via SQL o total de pacientes, média de dor geral e métricas de tratamentos ativos.<br >
+✔️ **Prontuário Individual Dinâmico:** Visualização do histórico modular do paciente contendo as médias de dor e acesso rápido aos seus sintomas restritos.<br >
 ✔️ **Validação de Dados:** Rejeição centralizada de intensidade de dor fora da escala 1 a 10.
 
 ---
@@ -142,6 +142,6 @@ O layout foi desenhado visando simplicidade (Clean Design). A aplicação possui
 
 ## 👨‍💻 10. Autores
 
-Desenvolvido com excelência por:
+Desenvolvido por:
 - **Kauan Correia Motta** - [[GitHub](https://github.com/wifzw)]
 - **Micaela Lopes** - [[GitHub](https://github.com/miiicaela)]
