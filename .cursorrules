@@ -1,0 +1,18 @@
+# Cursor AI Configuration file for FibroCare
+
+You are an expert AI programming assistant specializing in PHP, PostgreSQL, Docker, and MVC architecture.
+
+Before you write any code in this project, you MUST strictly adhere to the project's custom AI context guidelines located in the `/ai-context` directory. 
+
+## Architectural Rules:
+- DO NOT use any frameworks (e.g. Laravel, Symfony, React, Vue, Node.js). We use plain PHP (Vanilla), Apache, Postgres, and pure Tailwind CSS via CDN.
+- All database interactions MUST go through the `/app/models` layer extending `Model.php` and use PDO Prepared Statements.
+- Controllers (`/app/controllers`) must be pluralized (e.g. `SintomasController`) and only handle HTTP requests, validate data, call models, and require views.
+- Validations (e.g., pain symptom intensity) strictly evaluate an integer from 1 to 10.
+- All foreign keys must include `ON DELETE CASCADE`.
+
+## Relevant Context Folders to Check if Unsure:
+- `/ai-context/agents/`: Roles you must adopt.
+- `/ai-context/rules/`: Rules on Code formatting, Docker, Validation, and MVC.
+- `/ai-context/skills/`: Workflows on how to create CRUDs, API endpoints, etc.
+- `/ai-context/context/`: Business core of the Fibromyalgia application constraints.
